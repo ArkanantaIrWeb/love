@@ -15,7 +15,7 @@ footer.innerHTML = sender;
 footer.href = "https://www.instagram.com/_46ka_/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Babe!", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
+  Swal.fire("Hallooow!", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalo boong!!", "", "error").then(function () {
 
